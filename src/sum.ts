@@ -20,5 +20,5 @@ let sum4 = (function (x, y) { return x + y; }(3,2));
 document.write(String(sum4));
 
 //箭头函数
-let sum5 = (x, y) => x + y
+let sum5 = (x, y) => x + y ;// (x,y)=>{return x+y;}
 document.write(sum5(3, 2));
